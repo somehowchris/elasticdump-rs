@@ -1,0 +1,9 @@
+[package]
+name = "multielasticdump"
+version = "0.1.0"
+authors = ["Weickhardt Christof, GHR-OSA-NEX-24 <Christof.Weickhardt@swisscom.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
