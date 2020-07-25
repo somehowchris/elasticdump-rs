@@ -32,15 +32,3 @@ impl std::str::FromStr for Type {
     }
   }
 }
-
-impl Type {
-  fn to_str(&self) -> String {
-    match self {
-      Type::Data => return "Data".to_owned(),
-      Type::Settings => return "Settings".to_owned(),
-      Type::Analyzer => return "Analyzer".to_owned(),
-      Type::Mapping => return "Mapping".to_owned(),
-      Type::Alias => return "Alias".to_owned(),
-    }
-  }
-}

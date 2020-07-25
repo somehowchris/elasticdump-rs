@@ -1,8 +1,7 @@
 use regex::Regex;
-use url::Url;
 
 pub fn is_url(input: &str) -> bool {
-  match Url::parse(input) {
+  match url::Url::parse(input) {
     Ok(_output) => return input.starts_with("https://") || input.starts_with("http://"),
     _ => false,
   }
