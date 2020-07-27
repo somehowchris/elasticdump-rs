@@ -1,3 +1,4 @@
+pub mod source;
 pub mod bool;
 pub mod json;
 pub mod regex;
